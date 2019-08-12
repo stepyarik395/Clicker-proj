@@ -1,24 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Popap__component from './Components/Popap-component/Popap-component';
+import Popap__items from './Components/Popap-items/Popap-items';
 
-function App() {
+let  App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Popap__component></Popap__component>
+      <Popap__items></Popap__items>
+
     </div>
   );
 }
